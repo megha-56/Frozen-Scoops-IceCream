@@ -2,7 +2,7 @@ import React from "react";
 const Menu=()=>{
     return(
 
-        <div className="flex flex-col min-h-screen bg-white w-screen">
+        <div className="flex flex-col h-auto bg-white w-screen">
             <div className="pl-70 flex justify-around gap-x-100 h-50 pt-10 w-30">
                 <div className="flex flex-col gap-y-10">
                     <div>
@@ -43,7 +43,7 @@ const Menu=()=>{
             </div>
 
 
-            <div className="flex bg-white  mt-7 justify-center gap-10">
+            <div className="flex bg-white h-77 mt-7 justify-center gap-10">
                 <div className="  h-[350px] w-[300px]">
                     <img className="h-[200px] w-250px " src="bluberry.png" alt="blueberry" />
                     <h3 className="text-center font-bold pr-20 text-pink-800" >Blueberry</h3>
@@ -60,7 +60,7 @@ const Menu=()=>{
                 <div className=" pr-10 h-[250px] w-[250px]">
                     <img className="h-[200px] w-250px " src="mango.png" alt="mango"  />
                     <h3 className="text-center font-bold text-yellow-500" >Mango
-</h3>
+                     </h3>
                     <p className=" whitespace-nowrap text-sm  text-black">tropical sweetness in a creamy frozen treat</p>
                     <h4 className="text-center text-sm font-bold text-black">₹ 140</h4>
                 </div>
@@ -68,7 +68,7 @@ const Menu=()=>{
                  <div className="  h-[250px] w-[250px]">
                     <img className="h-[200px] w-250px " src="pistachio.png" alt="pistachio"  />
                     <h3 className="text-center font-bold text-green-600" >Pistachio
-</h3>
+                    </h3>
                     <p className="text-center text-sm  text-black">nutty richness in creamy indulgence</p>
                     <h4 className="text-center text-sm font-bold text-black">₹ 120</h4>
                 </div>
