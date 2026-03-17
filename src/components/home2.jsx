@@ -3,7 +3,7 @@ import MenuCard from "./menucard";
 
 const Home2=()=>{
     return(
-        <div className=" h-250 bg-white"> 
+        <div className=" h-200 bg-white"> 
            <div className="flex justify-center w-full ">
              <h4 className="text-pink-700 pt-25">OUR PRODUCTS</h4>
            </div>
