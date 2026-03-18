@@ -1,5 +1,5 @@
 import React from "react";
-import MenuCard from "./menucard";
+import MenuCard from "./menuCard";
 
 const Home2=()=>{
     return(
