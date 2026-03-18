@@ -8,6 +8,7 @@ import Home2 from './components/home2'
 import Menu from './components/Menu'
 import SignatureMenu from './components/SignatureMenu'
 import Banner from './components/banner'
+import Footer from './components/footer'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Menu />
       <SignatureMenu />
       <Banner/>
+      <Footer/>
       
     </>
   )
