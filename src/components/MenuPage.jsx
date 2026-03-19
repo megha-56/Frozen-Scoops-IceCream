@@ -101,18 +101,49 @@ const MenuPage=()=>{
 
 
 
-            <div>
-
-
-
-
-
+            <div  className=" flex flex-col  w-screen h-auto">
+                <div>
+                <h1 className="text-center mt-20 text-pink-700 font-bold pt-20 text-3xl underline">YOGURT</h1>
+                </div>
+                <div className="flex mt-20  bg-yellow-150 justify-around"> 
+                            <div className="flex justify-between rounded-xl relative h-[150px] w-[300px] border border-gray-300">
+                               <div>
+                                   <img className="absolute h-full rounded-xl w-[150px]" src='https://i.pinimg.com/736x/ac/17/9c/ac179ceacbcc71e84fe2e103acc147d5.jpg' alt='Vanilla'/>
+                               </div>
+                               <div className="flex flex-col justify-center gap-3 px-5 py-10">
+                                   <h2 className="font-bold text-center pl-3">Vanilla Honey <br/>Greek Yogurt</h2>
+                                   <button className="bg-pink-700 px-3 py-2 text-xs mr-2 text-white border ml-3 rounded-xl border ">Add to cart</button>
+                               </div>
+                            </div>
+                            <div className="flex justify-between rounded-xl relative h-[150px] w-[300px] border border-gray-300">
+                                <div>
+                                   <img className="absolute h-full rounded-xl w-[150px]" src='https://i.pinimg.com/736x/72/ee/b7/72eeb72bb79b1023da79af17a3d02b6c.jpg' alt='Chocolate'/>
+                                </div>
+                                <div className="flex flex-col justify-center gap-3 px-5 py-10">
+                                  <h2 className="font-bold pl-3">Vegan Almond <br/>Milk Yogurt</h2>
+                                <button className="bg-pink-700 px-3 py-2 text-xs mr-3 ml-3 text-white border rounded-xl border  ">Add to cart</button>
+                               </div>
+                            </div>
+                            <div className="flex justify-between rounded-xl relative h-[150px] w-[300px] border  border-gray-300 ">
+                                <div>
+                                   <img className="absolute h-full rounded-xl w-[150px]" src='https://i.pinimg.com/1200x/57/67/f7/5767f7e21122e39db90ce42cfe7fdef4.jpg' alt='Strawberry'/>
+                                </div>
+                                 <div className="flex flex-col justify-center gap-3 px-5 py-10">
+                                    <h2 className="font-bold pl-3">Bluberry Frozen<br/> Yogurt</h2>
+                                    <button className="bg-pink-700 px-3 py-2 text-xs mr-4 ml-4 text-white border rounded-xl border-black">Add to cart</button>
+                                 </div>
+                             </div>
+                </div>
 
 
             </div>
-            
 
-            <div></div>
+
+            <div>
+               
+
+
+            </div>
 
         </div>
 
